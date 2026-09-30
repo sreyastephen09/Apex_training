@@ -1,0 +1,36 @@
+Students=["Arun","Bala","Kavin"]
+New_Student="Ravi"
+Students.append(New_Student)
+print("Updated Students=",Students)
+
+#Testcases1
+Students=["Arun","Bala"]
+New_Student="Ravi"
+Students.append(New_Student)
+print("Updated Students=",Students)
+
+#Testcases2
+Students=["Kavin"]
+New_Student="Mohan"
+Students.append(New_Student)
+print("Updated Students=",Students)
+
+#Testcases3
+Students=[]
+New_Student="Priya"
+Students.append(New_Student)
+print("Updated Students=",Students)
+
+#Testcases4
+Students=["A","B","C"]
+New_Student="D"
+Students.append(New_Student)
+print("Updated Students=",Students)
+
+Output
+
+Updated Students= ['Arun', 'Bala', 'kavin', 'Ravi']
+Updated Students= ['Arun', 'Bala', 'Ravi']
+Updated Students= ['Kavin', 'Ravi']
+Updated Students= ['Priya']
+Updated Students= ['A', 'B', 'C', 'Priya']
