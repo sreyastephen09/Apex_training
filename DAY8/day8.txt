@@ -1,0 +1,24 @@
+class Student:
+  def __init__(self,name,age,marks):
+      self.name=name
+      self.age=age
+      self.marks=marks
+  def display_details(self):
+      print("Name:",self.name)
+      print("Age:",self.age)
+      print("Marks:",self.marks)
+    
+#creating objects
+student1=Student("Shreya",20,85.5)
+student2=Student("Sachin",21,90.0)
+student1.display_details()
+print()
+student2.display_details()
+
+Output Name: Shreya
+Age: 20
+Marks: 85.5
+
+Name: Sachin
+Age: 21
+Marks: 90.0
